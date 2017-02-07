@@ -137,11 +137,11 @@ The optional parameters are described in more detail below.
 ####"Fix" the Data
 FIT files have been observed where some data points are missing for one sensor (e.g. cadence/foot pod), where information has been collected for other sensors (e.g. heart rate) at the same instant. The cause is unknown and typically only a relatively small number of data points are missing. Fixing the issue is probably unnecessary, as each datum is indexed using a timestamp. However, it may be important for your project to have the exact same number of data points for each type of data.
 
-**Recognised values:** 'all', 'cadence', 'distance', 'heart_rate', 'lat_lon', 'power', 'speed'
+**Recognised values:** 'all', 'cadence', 'distance', 'heart_rate', 'lat_lon', 'altitude', 'power', 'speed'
 
 **Examples: **
 ```php
-$options = ['fix_data' => ['all']];  // fix cadence, distance, heart_rate, lat_lon, power, and speed data
+$options = ['fix_data' => ['all']];  // fix cadence, distance, heart_rate, lat_lon, altitude, power, and speed data
 $options = ['fix_data' => ['cadence', 'distance']];  // fix cadence and distance data only
 $options = ['fix_data' => ['lat_lon']];  // fix position data only
 ```
