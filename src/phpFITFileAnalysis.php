@@ -408,6 +408,7 @@ class phpFITFileAnalysis
             1736 => 'edge_touring',
             1742 => 'Edge 510',                 // 'edge510_japan',
             1752 => 'hrm_run',
+            1765 => 'Forerunner 920',           // fr920xt
             1821 => 'Edge 510',                 // 'edge510_asia',
             1822 => 'Edge 810',                 // 'edge810_china',
             1823 => 'Edge 810',                 // 'edge810_taiwan',
